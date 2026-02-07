@@ -31,7 +31,7 @@ public class Main {
 
 
         System.out.println("Monster 1 " + m1.getName());
-        System.out.println("Monster 3 " + m2.getName());
+        System.out.println("Monster 2 " + m2.getName());
         System.out.println("Monster 3 " + m3.getName());
         System.out.println("Monster 4 " + m4.getName());
 

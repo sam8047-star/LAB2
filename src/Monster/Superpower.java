@@ -2,7 +2,7 @@ package Monster;
 
 public enum Superpower {
     FIRE_BALL,
-    POISON,
-    ICE,
-    LIGHTNING
+    SUPER_STRENGTH,
+    FIGHT_POWERS,
+    SPEED
 }

@@ -7,6 +7,7 @@ public class Zombie extends Monster{
 
     @Override
     public void specialPowers(){
-        System.out.println("");
+        System.out.println("super strength");
     }
 }
+
