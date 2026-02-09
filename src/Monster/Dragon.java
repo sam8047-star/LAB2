@@ -7,7 +7,7 @@ public class Dragon extends Monster {
 
     @Override
     public void specialPowers(){
-        System.out.println("fight powers");
+        System.out.println("my super power is:" + Superpower. FIGHT_POWERS);
+
     }
 }
-

@@ -6,7 +6,7 @@ public class Fire extends Monster{
 }
     @Override
     public void specialPowers(){
-        System.out.println("fire balls");
+        System.out.println("fire balls" + Superpower. FIRE_BALL);
         }
     }
 

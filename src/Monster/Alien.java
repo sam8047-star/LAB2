@@ -7,7 +7,7 @@ public class Alien extends Monster{
 
     @Override
     public void specialPowers(){
-        System.out.println("speed");
+        System.out.println("speed" + Superpower. SPEED);
     }
 }
 
