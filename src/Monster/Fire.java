@@ -1,9 +1,9 @@
 package Monster;
 
-public final class Zombie extends Monster {
+public final class Fire extends Monster {
 
-    public Zombie(String name, int health, int level) {
-        super(name, health, level);
+    public Fire(String name, int health, int attackPower) {
+        super(name, health, attackPower);
     }
 
     @Override

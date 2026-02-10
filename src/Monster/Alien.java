@@ -1,3 +1,5 @@
+package Monster;
+
 public final class Alien extends Monster {
 
     public Alien(String name, int health, int attackPower) {
@@ -9,4 +11,3 @@ public final class Alien extends Monster {
         System.out.println(getName() + " activates " + getSpecialPower());
     }
 }
-

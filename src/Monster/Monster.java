@@ -1,3 +1,4 @@
+package Monster;
 public abstract sealed class Monster
         permits Dragon, Alien, Zombie, Fire {
 
@@ -32,6 +33,18 @@ public abstract sealed class Monster
         this.specialPower = specialPower;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public void setAttackPower(int attackPower) {
+        this.attackPower = attackPower;
+    }
+
     public abstract void specialPowers();
 
     @Override
@@ -40,4 +53,3 @@ public abstract sealed class Monster
                 "type=" + this.getClass().getSimpleName() + ", name='" + name + '\'' + ", health=" + health + ", attackPower=" + attackPower + '}';
     }
 }
-

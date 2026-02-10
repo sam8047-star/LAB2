@@ -1,3 +1,5 @@
+package Monster;
+
 public final class Dragon extends Monster {
 
     public Dragon(String name, int health, int attackPower) {
