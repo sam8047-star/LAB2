@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Monster","l":"Main"},{"p":"Monster","l":"Monster"}];updateSearchResults();
+typeSearchIndex = [{"p":"Monster","l":"Alien"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Monster","l":"Dragon"},{"p":"Monster","l":"Fire"},{"p":"Monster","l":"Main"},{"p":"Monster","l":"Monster"},{"p":"Monster","l":"Superpower"},{"p":"Monster","l":"Zombie"}];updateSearchResults();

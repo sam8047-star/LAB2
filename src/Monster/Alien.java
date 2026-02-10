@@ -1,14 +1,12 @@
-package Monster;
+public final class Alien extends Monster {
 
-public class Alien extends Monster{
-    public Alien (String name) {
-        super(name);
+    public Alien(String name, int health, int attackPower) {
+        super(name, health, attackPower);
     }
 
     @Override
-    public void specialPowers(){
-        System.out.println("speed" + Superpower. SPEED);
+    public void specialPowers() {
+        System.out.println(getName() + " activates " + getSpecialPower());
     }
 }
-
 
